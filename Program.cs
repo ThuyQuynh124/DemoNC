@@ -2,10 +2,11 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using DemoNC.Data;
 using DemoNC.Models;
 using System;
 
-namespace DemoNC
+namespace MvcMovie
 {
     public class Program
     {
